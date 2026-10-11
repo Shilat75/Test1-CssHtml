@@ -1,0 +1,123 @@
+
+
+ .material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 40
+}
+ .page {
+position: relative;
+}
+
+.topPage {
+position: relative;
+height: 70px;
+border-bottom: 1px solid #ddd;
+}
+
+
+.material-symbols-outlined {
+position: absolute;
+right: 10px;
+top: 20px;
+}
+
+
+.signup {
+position: absolute;
+right: 50px;
+top: 15px;
+background-color: azure;
+}
+
+
+.login {
+position: absolute;
+right: 170px;
+top: 15px;
+background-color: black;
+color: white;
+}
+
+
+.signup, .login {
+padding: 8px 12px;
+border: 1px solid black;
+border-radius: 20px;
+cursor: pointer;
+}
+
+.navBar {
+position: absolute;
+left: 40%;
+top: 10px;
+}
+
+.navBar ul {
+padding: 0;
+margin: 0;
+list-style: none;
+white-space: nowrap;
+}
+
+.navBar a {
+display: inline-block;
+margin-right: 15px;
+text-decoration: none;
+color: black;
+font-size: 20px;
+}
+
+.messageBox {
+border: 1px solid #ddd;
+border-radius: 25px;
+padding: 15px;
+box-shadow: 0 2px 8px #eee;
+}
+
+
+.downPage{
+    position: absolute;
+    left: 35%;
+    margin :100px;
+    top: 50%;
+}
+
+
+
+.messageBox textarea {
+width: 120%;
+height: 50px;
+border: none;
+outline: none;
+resize: none;
+font-family: Arial;
+font-size: 15px;
+box-sizing: border-box;
+}
+
+/* Bottom buttons */
+.bottomButtons {
+position: relative;
+min-height: 38px;
+}
+
+.bottomButtons button {
+display: inline-block;
+padding: 9px 12px;
+margin-right: 5px;
+border: 1px solid #eee;
+border-radius: 25px;
+background-color: #fafafa;
+cursor: pointer;
+}
+
+/* Voice button */
+.bottomButtons .voice {
+position: absolute;
+right: 0;
+top: 0;
+margin-right: 0;
+}
